@@ -33,7 +33,7 @@ func main() {
 	}
 	runningProduct := 1
 	for _, currentSlope := range slopes {
-		tmpTreeCount := checkSlopeTreeCount(mapArray, currentSlope.X, currentSlope.Y,)
+		tmpTreeCount := checkSlopeTreeCount(mapArray, currentSlope.X, currentSlope.Y)
 		fmt.Printf("currSlopeX: %v, currSlopeY: %v , TreeCount: %v \n", currentSlope.X, currentSlope.Y, tmpTreeCount)
 		runningProduct *= tmpTreeCount
 	}
